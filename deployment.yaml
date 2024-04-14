@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: java-application
-        image: nginx:62
+        image: nginx:65
         ports:
         - containerPort: 8080
