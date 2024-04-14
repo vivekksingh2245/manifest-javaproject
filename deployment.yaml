@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: java-springboot-deployment
   labels:
-    app: nginx
+    app: java
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nginx
+      app: java
   template:
     metadata:
       labels:
-        app: nginx
+        app: java
     spec:
       containers:
-      - name: java-application
-        image: nginx:68
+      - name: java-springboot-application
+        image: vivekksingh2245/newimg:68
         ports:
         - containerPort: 8080

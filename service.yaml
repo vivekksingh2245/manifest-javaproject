@@ -4,9 +4,9 @@ metadata:
   name: my-service
 spec:
   selector:
-    app: MyApp
+    app: java
   ports:
     - protocol: TCP
       port: 80
       targetPort: 8080
-  type: LoadBalancer
+  type: NOdePort
