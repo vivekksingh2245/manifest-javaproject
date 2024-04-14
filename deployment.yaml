@@ -15,7 +15,7 @@ spec:
         app: java
     spec:
       containers:
-      - name: java-springboot-application
-        image: vivekksingh2245/newimg:68
+      - name: java-application
+        image: vivekksingh2245/newimg:70
         ports:
         - containerPort: 8080
